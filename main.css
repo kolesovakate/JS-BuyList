@@ -1,8 +1,15 @@
-h1 {
-    color: red;
+.container{
+    max-width: 500px;
+    margin: auto;
+    height: 100px;
+    border: 1px solid black;
 }
 
-.text2018 {
-    color: mediumvioletred;
-    font-size: 40px;
+.right{
+    float: right;
+    width: 300px;
+}
+
+.left{
+   
 }
