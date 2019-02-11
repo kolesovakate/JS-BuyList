@@ -1,15 +1,24 @@
 .container{
-    max-width: 500px;
+    max-width: 900px;
     margin: auto;
-    height: 100px;
+    height: 300px;
     border: 1px solid black;
 }
 
 .right{
     float: right;
     width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    margin: auto;
+}
+
+.left p{
+    margin-left: 10px;
 }
 
 .left{
+    float: left;
+    width: 300px;
    
 }
