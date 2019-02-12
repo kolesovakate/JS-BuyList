@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: bisque;
+    background-color: rgb(206, 250, 248);
     padding-top: 80px;
 }
 
@@ -44,6 +44,7 @@ body{
     color: aliceblue;
 font-size: 14px;
 font-style: oblique;
+border: none;
   }  
 
   .container .left .quantity .circular-plus-button:hover{
@@ -52,6 +53,7 @@ font-style: oblique;
     width: 30px;
     float: none;
     background-color: rgb(0, 119, 0);
+    
   }  
 
   .container .left .quantity .circular-minus-button{
@@ -63,6 +65,7 @@ font-style: oblique;
     color: aliceblue;
 font-size: 14px;
 font-style: oblique;
+border: none;
   }  
 
   .container .left .quantity .circular-minus-button:hover{
@@ -76,15 +79,17 @@ font-style: oblique;
   .container .left .buy-button{
       height: 30px;
       border-radius: 4px;
-      background-color: rgb(219, 216, 211);
+      background-color: rgb(240, 237, 232);
       font-size: 14px;
+      border: none;
+
 
   }
 
   .container .left .buy-button:hover{
     height: 30px;
     border-radius: 4px;
-    background-color: rgb(175, 173, 169);
+    background-color: rgb(218, 215, 211);
 }
 
   .container .left .delete-button{
@@ -94,6 +99,8 @@ font-style: oblique;
 color: aliceblue;
 font-size: 14px;
 font-style: oblique;
+border: none;
+
 }
 
 .container .left .delete-button:hover{
@@ -107,9 +114,9 @@ font-style: oblique;
 .container .right{
     float: right;
     width: 270px;
-    height: 300px;
+    height: 265px;
     margin: auto;
-    background-color:hotpink;
+    background-color:rgb(255, 181, 218);
     border-radius: 4px;
   padding-left: 5px;
    padding-top: 1rem;
@@ -124,7 +131,7 @@ font-style: oblique;
 
 .container .right .second{
     border-bottom: 1px solid rgb(117, 116, 116);
-    height: 100px;
+    height: 85px;
 }
 
 .container .right .label{
@@ -157,9 +164,8 @@ font-style: oblique;
     width: 750px;
    border-radius: 4px;
     height: 285px;
-    
     padding: 5px;
-    background-color: rgb(213, 235, 255);
+    background-color:rgb(255, 181, 218);
     box-shadow: 3px 3px 5px grey;
 }
 
@@ -178,7 +184,12 @@ font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 4px;
     width: 70px;
+    height: 22px;
+    border: none;
+}
 
+.container .left .addbtn:hover{
+    color: rgb(200, 207, 214);
 }
 
 .container .left .first{
