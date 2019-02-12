@@ -1,10 +1,15 @@
 .container{
     padding: 5px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     height: 300px;
-    border: 1px solid black;
     
+    
+}
+
+body{
+    background-color: bisque;
+    padding-top: 80px;
 }
 
 
@@ -14,13 +19,14 @@
     margin-right: 200px;
    vertical-align: top;
     line-height: 2.0;
-    border: 1px solid black;
+    
     text-align: center;
   }
 
 
   .container .left .quantity input {
-    
+    border-radius: 4px;
+    background-color: rgb(240, 228, 252);
     text-align: center;
     width: 30px;
     font-size: 16px;
@@ -100,7 +106,7 @@ font-style: oblique;
 
 .container .right{
     float: right;
-    width: 230px;
+    width: 270px;
     height: 300px;
     margin: auto;
     background-color:hotpink;
@@ -123,7 +129,7 @@ font-style: oblique;
 
 .container .right .label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 18px;
+   font-size: 15px;
     border-radius: 4px;
     padding: 1px;
     line-height: 50px;
@@ -151,19 +157,28 @@ font-style: oblique;
     width: 750px;
    border-radius: 4px;
     height: 285px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    
+    padding: 5px;
     background-color: rgb(213, 235, 255);
     box-shadow: 3px 3px 5px grey;
 }
 
 .container .left p{
     width: 100%;
-    border: 1px solid rgb(61, 233, 8);
+    
 
 }
 .container .left p .search{
-    width: 650px;
+    width: 680px;
+}
+
+.container .left .addbtn{
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    width: 70px;
+
 }
 
 .container .left .first{
@@ -179,7 +194,7 @@ font-style: oblique;
    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 30%;
-    border: 1px solid rgb(255, 28, 28);
+    
 }
 
 
