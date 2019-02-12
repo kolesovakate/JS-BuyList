@@ -1,8 +1,10 @@
 .container{
-    max-width: 900px;
+    padding: 5px;
+    max-width: 1000px;
     margin: auto;
     height: 300px;
     border: 1px solid black;
+    
 }
 
 .right{
@@ -11,6 +13,21 @@
     border: 1px solid black;
     height: 300px;
     margin: auto;
+    background-color:hotpink;
+}
+
+
+
+.leftt{
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.leftt p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    text-shadow: 1px 1px red;
 }
 
 .left p{
