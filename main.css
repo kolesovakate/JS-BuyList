@@ -89,7 +89,6 @@ border: none;
 -moz-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
 box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
 
-
   }
 
   .container .left .buy-button:hover{
@@ -156,7 +155,18 @@ box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
 
 }
 
-.container .right .label .count{
+.container .right .label-bought{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 14px;
+    border-radius: 4px;
+    padding: 1px;
+    line-height: 50px;
+    margin-right: 5px;
+    background-image: linear-gradient(rgb(231, 224, 224), rgb(177, 177, 175));
+text-decoration-line: line-through;
+}
+
+.container .right .count{
     background-color: rgb(255, 136, 93);
     padding-left: 3px;
     padding-right: 3px;
@@ -225,6 +235,12 @@ border-radius: 4px;
     
 }
 
+.container .left .prodbought {
+    text-decoration-line: line-through;
+    padding-left: 7px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    width: 30%;
+}
 
 .container .left .second{
 
