@@ -79,6 +79,7 @@ border: none;
   } 
 
   .container .left .buy-button{
+      position: relative;
       height: 30px;
       border-radius: 4px;
       background-color: rgb(240, 237, 232);
@@ -98,6 +99,7 @@ box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
 }
 
   .container .left .delete-button{
+      position: relative;
       border-radius: 4px;
     height: 30px;
     background-color: rgb(255, 56, 56);
@@ -184,7 +186,7 @@ text-decoration-line: line-through;
 
 .container .left{
     float: left;
-    max-width: 750px;
+    width: 70%;
    border-radius: 5px;
     height: 285px;
     padding: 5px;
@@ -200,7 +202,7 @@ text-decoration-line: line-through;
 
 }
 .container .left p .search{
-    width: 675px;
+    width: 90%;
     height: 30px;
 }
 
@@ -263,5 +265,38 @@ border-radius: 4px;
     display: flex;
     height: 45px;
     padding-top: 30px;
+}
+
+.badge{
+    position:	fixed;
+bottom:	0px;
+left:	40px;
+height:	70px;
+background-color:	rgb(187, 41, 245);
+width:	270px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+text-align: center;
+font-family: "Trebuchet MS", Helvetica, sans-serif; 
+color: white;
+font-size: 24px;
+}
+
+.badge:hover{
+    position:	fixed;
+bottom:	0px;
+left:	40px;
+height:	210px;
+background-color:	rgb(41, 44, 245);
+width:	270px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+text-align: center;
+font-family: "Trebuchet MS", Helvetica, sans-serif; 
+color: white;
+font-size: 24px;
+transition:	all	1s	ease;
 }
 
