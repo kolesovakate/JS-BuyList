@@ -336,10 +336,17 @@ font-size: 24px;
 transition:	all	1s	ease;
 }
 
-@media print{
-    .badge{
-        border-color: black !important;
+
+
+@media print {
+    .badge {
+        color: black;
         background-color: white;
+        border: 1px solid rgb(0, 0, 0);
+        bottom: 0;
+    }
+    .badge p{
+        display: none;
     }
 }
 
