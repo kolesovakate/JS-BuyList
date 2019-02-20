@@ -300,3 +300,30 @@ font-size: 24px;
 transition:	all	1s	ease;
 }
 
+.tooltip {
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-size: 16px;
+	cursor: pointer;
+}
+
+.tooltip::after {
+	background: rgba(197, 23, 250, 0.637);
+	border-radius: 8px 8px 8px 8px;
+	color: #FFF;
+	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+    margin-top: -40px;
+    margin-left: -47px;
+	opacity: 0; /* Наш элемент прозрачен... */
+	padding: 3px 7px;
+    position: absolute;
+    
+	visibility: hidden; /* ...и скрыт. */
+			
+	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+}
+		
+.tooltip:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+}
+
