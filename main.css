@@ -3,22 +3,40 @@
     max-width: 1100px;
     margin: auto;
     height: 300px;
-    display: flexbox;
-    flex-direction: column;
-    
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
 }
+
+@media	screen and (max-width:	776px)	{
+    .container{
+        padding: 5px;
+       
+        margin: auto;
+        
+        width: auto;
+        align-items: center;
+        
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    }
 
 body{
     background-color: rgb(211, 211, 211);
     padding-top: 80px;
+    display: block;
 }
 
 
 .container .left .quantity {
-    width: 200px;
-    float: right;
-    margin-right: 200px;
+    width: 37%;
+    float: left;
    vertical-align: top;
     line-height: 2.0;
     
@@ -79,8 +97,10 @@ border: none;
   } 
 
   .container .left .buy-button{
-      position: relative;
-      height: 30px;
+    position: relative;
+    display: inline-block;
+box-sizing: inherit;
+    height: 30px;
       border-radius: 4px;
       background-color: rgb(240, 237, 232);
       font-size: 14px;
@@ -195,13 +215,15 @@ text-decoration-line: line-through;
     margin: auto;
 }
 
-.container .left p{
+.container .left .searchadd{
     width: 100%;
     height: 40px;
     border-bottom: 1px solid rgb(117, 116, 116); 
+    display: flex;
+    position: relative;
 
 }
-.container .left p .search{
+.container .left .searchadd .search{
     width: 90%;
     height: 30px;
 }
@@ -221,6 +243,10 @@ border-radius: 4px;
 }
 
 .container .left .first{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: stretch;
     float: left;
     width: 100%;
     border-bottom: 1px solid rgb(117, 116, 116);
@@ -233,7 +259,7 @@ border-radius: 4px;
 .container .left .prodnotbought{
    padding-left: 7px;
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
-    width: 30%;
+    width: 37%;
     
 }
 
@@ -244,8 +270,16 @@ border-radius: 4px;
     width: 30%;
 }
 
-.container .left .second{
+.container .left .buy-delete{
+    width: 37%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
+.container .left .second{
+    display: flex;
+    flex-direction: row; 
     float: left;
     width: 100%;
     border-bottom: 1px solid rgb(117, 116, 116);
@@ -258,13 +292,15 @@ border-radius: 4px;
 
 
 .container .left .third{
-
+margin: auto;
     float: left;
     width: 100%;
     flex-direction: row;
     display: flex;
     height: 45px;
     padding-top: 30px;
+    display: flex;
+    flex-direction: row; 
 }
 
 .badge{
@@ -300,6 +336,13 @@ font-size: 24px;
 transition:	all	1s	ease;
 }
 
+@media print{
+    .badge{
+        border-color: black !important;
+        background-color: white;
+    }
+}
+
 .tooltip {
     font-family: "Trebuchet MS", Helvetica, sans-serif; 
     font-size: 16px;
@@ -310,20 +353,41 @@ transition:	all	1s	ease;
 	background: rgba(197, 23, 250, 0.637);
 	border-radius: 8px 8px 8px 8px;
 	color: #FFF;
-	content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	content: attr(data-tooltip); 
     margin-top: -40px;
-    margin-left: -47px;
-	opacity: 0; /* Наш элемент прозрачен... */
+    margin-left: auto;
+    margin-right: auto;
+	opacity: 0;
 	padding: 3px 7px;
     position: absolute;
     
-	visibility: hidden; /* ...и скрыт. */
+    
+	visibility: hidden; 
 			
-	transition: all 0.4s ease-in-out; /* Добавить плавности по вкусу */
+	transition: all 0.4s ease-in-out; 
+}
+
+
+
+.quantity .tooltip::after {
+	background: rgba(197, 23, 250, 0.637);
+	border-radius: 8px 8px 8px 8px;
+	color: #FFF;
+	content: attr(data-tooltip); 
+    margin-top: -40px;
+    margin-left: -47px;
+	opacity: 0; 
+	padding: 3px 7px;
+    position: absolute;
+    
+    
+	visibility: hidden; 
+			
+	transition: all 0.4s ease-in-out;
 }
 		
 .tooltip:hover::after {
-	opacity: 1; /* Показываем его */
+	opacity: 1;
 	visibility: visible;
 }
 

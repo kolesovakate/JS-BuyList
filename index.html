@@ -12,8 +12,10 @@
         
 
     <div class="left">
-           <p><input class="search" type=search placeholder="Type here">
-                <button class="addbtn">Add</button></p>
+           <div class="searchadd"><input class="search" type=search placeholder="Type here">
+            <button class="addbtn">Add</button>
+        
+    </div>
        
             <div class="first">
                  <span class="prodnotbought">Tomatoes</span>
@@ -26,10 +28,18 @@
                         </button>
                         </span>
                         <input type="text" name="name" value="1">
-                        <button class="circular-plus-button"><b>+</b></button>
-                 </div>
-                 <button class="buy-button">Purchase</button>
-                 <button class="delete-button"><b>&times</b></button>
+                        <span class="tooltip" data-tooltip="tooltip">
+                            <button class="circular-plus-button"><b>+</b></button>
+                        </span>
+                        </div>
+                        <div class="buy-delete">
+                        <span class="tooltip" data-tooltip="tooltip">
+                        <button class="buy-button">Purchase</button>
+                        </span>
+                        <span class="tooltip" data-tooltip="tooltip">
+                        <button class="delete-button"><b>&times</b></button>
+               </span>
+            </div>
                 </div>
                  
                  
@@ -42,19 +52,35 @@
                  <div class="quantity">
                         <input type="text" name="name" value="1">
                  </div>
+                 <div class="buy-delete">
+                 <span class="tooltip" data-tooltip="tooltip">
                  <button class="buy-button">Not Purchased</button>
+               </span>
+               </div>
                 </div>
 
                 <div class="third">
                         <span class="prodnotbought">Cheese</span>
             
                  <div class="quantity">
-                        <button class="circular-minus-button"><b>-</b></button>
-            <input type="text" name="name" value="1">
-            <button class="circular-plus-button"><b>+</b></button>
-                 </div>
-                 <button class="buy-button">Purchase</button>
-                 <button class="delete-button" ><b>&times</b></button>
+                        <span class="tooltip" data-tooltip="tooltip">
+                                <button type="button" class="circular-minus-button">
+                                    <b>-</b>
+                                </button>
+                                </span>
+                                <input type="text" name="name" value="1">
+                                <span class="tooltip" data-tooltip="tooltip">
+                                    <button class="circular-plus-button"><b>+</b></button>
+                                </span>
+                                </div>
+                                <div class="buy-delete">
+                                <span class="tooltip" data-tooltip="tooltip">
+                                <button class="buy-button">Purchase</button>
+                                </span>
+                                <span class="tooltip" data-tooltip="tooltip">
+                                <button class="delete-button"><b>&times</b></button>
+                       </span>
+                       </div>
                         </div>
 
 </div>
