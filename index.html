@@ -1,132 +1,138 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="uk">
     <meta charset="UTF-8">
     <title>Katia's Page</title>
 
 
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
-<body>
-<div class="container">
-        
 
-    <div class="left">
-           <div class="searchadd"><input class="search" type=search placeholder="Type here">
-            <button class="addbtn">Add</button>
-        
-    </div>
-       
+<body>
+    <div class="container">
+
+
+        <div class="left">
+            <div class="searchadd"><input class="search" type=search placeholder="Type here">
+                <button class="addbtn">Add</button>
+
+            </div>
+
             <div class="first">
-                 <span class="prodnotbought">Tomatoes</span>
-                 
-                 
-                 <div class="quantity">
-                        <span class="tooltip" data-tooltip="tooltip">
+                <span class="prodnotbought">Tomatoes</span>
+
+
+                <div class="quantity">
+                    <span class="tooltip" data-tooltip="tooltip">
                         <button type="button" class="circular-minus-button">
                             <b>-</b>
                         </button>
-                        </span>
-                        <input type="text" name="name" value="1">
-                        <span class="tooltip" data-tooltip="tooltip">
-                            <button class="circular-plus-button"><b>+</b></button>
-                        </span>
-                        </div>
-                        <div class="buy-delete">
-                        <span class="tooltip" data-tooltip="tooltip">
+                    </span>
+                    <input type="text" name="name" value="1">
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button class="circular-plus-button"><b>+</b></button>
+                    </span>
+                </div>
+                <div class="buy-delete">
+                    <span class="tooltip" data-tooltip="tooltip">
                         <button class="buy-button">Purchase</button>
-                        </span>
-                        <span class="tooltip" data-tooltip="tooltip">
+                    </span>
+                    <span class="tooltip" data-tooltip="tooltip">
                         <button class="delete-button"><b>&times</b></button>
-               </span>
+                    </span>
+                </div>
             </div>
+
+
+
+            <div class="second">
+                <span class="prodbought">Coockies</span>
+
+
+
+                <div class="quantity">
+                    <input type="text" name="name" value="1">
                 </div>
-                 
-                 
-                
-                <div class="second">
-                        <span class="prodbought">Coockies</span>
-                        
-                
-                
-                 <div class="quantity">
-                        <input type="text" name="name" value="1">
-                 </div>
-                 <div class="buy-delete">
-                 <span class="tooltip" data-tooltip="tooltip">
-                 <button class="buy-button">Not Purchased</button>
-               </span>
-               </div>
+                <div class="buy-delete">
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button class="buy-button">Not Purchased</button>
+                    </span>
                 </div>
+            </div>
 
-                <div class="third">
-                        <span class="prodnotbought">Cheese</span>
-            
-                 <div class="quantity">
-                        <span class="tooltip" data-tooltip="tooltip">
-                                <button type="button" class="circular-minus-button">
-                                    <b>-</b>
-                                </button>
-                                </span>
-                                <input type="text" name="name" value="1">
-                                <span class="tooltip" data-tooltip="tooltip">
-                                    <button class="circular-plus-button"><b>+</b></button>
-                                </span>
-                                </div>
-                                <div class="buy-delete">
-                                <span class="tooltip" data-tooltip="tooltip">
-                                <button class="buy-button">Purchase</button>
-                                </span>
-                                <span class="tooltip" data-tooltip="tooltip">
-                                <button class="delete-button"><b>&times</b></button>
-                       </span>
-                       </div>
-                        </div>
+            <div class="third">
+                <span class="prodnotbought">Cheese</span>
 
-</div>
+                <div class="quantity">
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button type="button" class="circular-minus-button">
+                            <b>-</b>
+                        </button>
+                    </span>
+                    <input type="text" name="name" value="1">
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button class="circular-plus-button"><b>+</b></button>
+                    </span>
+                </div>
+                <div class="buy-delete">
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button class="buy-button">Purchase</button>
+                    </span>
+                    <span class="tooltip" data-tooltip="tooltip">
+                        <button class="delete-button"><b>&times</b></button>
+                    </span>
+                </div>
+            </div>
 
-   
-<div class="right">
-    <div class="first"><h2>Left</h2></div>
-    
-<div class="second">
-        <span class="label">
-        <span class="title">Tomatoes</span>
-        <span class="count">1</span>
-</span>
+        </div>
 
 
+        <div class="right">
+            <div class="first">
+                <h2>Left</h2>
+            </div>
 
-<span class="label">
-        <span class="title">Cheese</span>
-        <span class="count">1</span>
-</span>
-
-</div>
-
-<div class="third">
-    <h2>Purchased</h2>
-</div>
-
-<div class="fourth">
-    <span class="label-bought">
-        <span class="title">Coockies</span>
-        <span class="count">1</span>
-</span>
-</div>
+            <div class="second">
+                <span class="label">
+                    <span class="title">Tomatoes</span>
+                    <span class="count">1</span>
+                </span>
 
 
-</div>
-</div>  
 
-<div class="badge">
-    <p>Buy List</p>
-    <span class="name">
-        Created by: <br><b>Kolesova Kateryna</b> 
-    </span>
-</div>
-    
+                <span class="label">
+                    <span class="title">Cheese</span>
+                    <span class="count">1</span>
+                </span>
 
-   
+            </div>
+
+            <div class="third">
+                <h2>Purchased</h2>
+            </div>
+
+            <div class="fourth">
+                <span class="label-bought">
+                    <span class="title">Coockies</span>
+                    <span class="count">1</span>
+                </span>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="badge">
+        <p>Buy List</p>
+        <span class="name">
+            Created by: <br><b>Kolesova Kateryna</b>
+        </span>
+    </div>
+
+
+
 </body>
+
 </html>

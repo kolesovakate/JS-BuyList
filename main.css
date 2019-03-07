@@ -1,4 +1,4 @@
-.container{
+.container {
     padding: 5px;
     max-width: 1100px;
     margin: auto;
@@ -6,45 +6,23 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
 }
 
-@media	screen and (max-width:	776px)	{
-    .container{
-        padding: 5px;
-       
-        margin: auto;
-        
-        width: auto;
-        align-items: center;
-        
-    }
-    .left{
-        width: 100%;
-    }
-    .right{
-        width: 100%;
-    }
-    }
-
-body{
+body {
     background-color: rgb(211, 211, 211);
     padding-top: 80px;
     display: block;
 }
 
-
 .container .left .quantity {
     width: 37%;
     float: left;
-   vertical-align: top;
+    vertical-align: top;
     line-height: 2.0;
-    
     text-align: center;
-  }
+}
 
-
-  .container .left .quantity input {
+.container .left .quantity input {
     border-radius: 4px;
     background-color: rgb(240, 228, 252);
     text-align: center;
@@ -52,106 +30,100 @@ body{
     font-size: 16px;
     color: rgb(138, 0, 92);
     font-weight: 300;
-    
-  }
+}
 
-  .container .left .quantity .circular-plus-button{
+.container .left .quantity .circular-plus-button {
     border-radius: 50%;
     height: 30px;
     width: 30px;
     float: none;
     background-color: rgb(0, 165, 0);
     color: aliceblue;
-font-size: 14px;
-font-style: oblique;
-border: none;
-  }  
+    font-size: 14px;
+    font-style: oblique;
+    border: none;
+}
 
-  .container .left .quantity .circular-plus-button:hover{
+.container .left .quantity .circular-plus-button:hover {
     border-radius: 50%;
     height: 30px;
     width: 30px;
     float: none;
     background-color: rgb(0, 119, 0);
-    
-  }  
+}
 
-  .container .left .quantity .circular-minus-button{
+.container .left .quantity .circular-minus-button {
     border-radius: 50%;
     height: 30px;
     width: 30px;
     float: none;
     background-color: rgb(255, 46, 46);
     color: aliceblue;
-font-size: 14px;
-font-style: oblique;
-border: none;
-  }  
+    font-size: 14px;
+    font-style: oblique;
+    border: none;
+}
 
-  .container .left .quantity .circular-minus-button:hover{
+.container .left .quantity .circular-minus-button:hover {
     border-radius: 50%;
     height: 30px;
     width: 30px;
     float: none;
     background-color: rgb(179, 35, 35);
-  } 
+}
 
-  .container .left .buy-button{
+.container .left .buy-button {
     position: relative;
     display: inline-block;
-box-sizing: inherit;
+    box-sizing: inherit;
     height: 30px;
-      border-radius: 4px;
-      background-color: rgb(240, 237, 232);
-      font-size: 14px;
-      border: none;
-      float: right;
-      -webkit-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
--moz-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
+    border-radius: 4px;
+    background-color: rgb(240, 237, 232);
+    font-size: 14px;
+    border: none;
+    -webkit-box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
+    box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
+}
 
-  }
-
-  .container .left .buy-button:hover{
+.container .left .buy-button:hover {
     height: 30px;
     border-radius: 4px;
     background-color: rgb(218, 215, 211);
 }
 
-  .container .left .delete-button{
-      position: relative;
-      border-radius: 4px;
+.container .left .delete-button {
+    position: relative;
+    border-radius: 4px;
     height: 30px;
     background-color: rgb(255, 56, 56);
-color: aliceblue;
-font-size: 14px;
-font-style: oblique;
-border: none;
-float: right;
--webkit-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
--moz-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
-box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
-
+    color: aliceblue;
+    font-size: 14px;
+    font-style: oblique;
+    border: none;
+    float: right;
+    -webkit-box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
+    box-shadow: 0px 3px 6px 2px rgba(219, 219, 219, 1);
 }
 
-.container .left .delete-button:hover{
+.container .left .delete-button:hover {
     border-radius: 4px;
-  height: 30px;
-  background-color: rgb(199, 46, 46);
-  
+    height: 30px;
+    background-color: rgb(199, 46, 46);
 }
 
-
-.container .right{
+.container .right {
     float: right;
     width: 280px;
     height: 265px;
     margin: auto;
+    margin-top: 10px;
     background-color: white;
     border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-   padding-top: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     box-shadow: 3px 3px 5px grey;
 }
@@ -161,91 +133,87 @@ box-shadow: 0px 3px 6px 2px rgba(219,219,219,1);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.container .right .second{
+.container .right .second {
     border-bottom: 1px solid rgb(117, 116, 116);
     height: 85px;
 }
 
-.container .right .label{
+.container .right .label {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-   font-size: 14px;
+    font-size: 14px;
     border-radius: 4px;
     padding: 1px;
     line-height: 50px;
     margin-right: 5px;
     background-image: linear-gradient(rgb(231, 224, 224), rgb(177, 177, 175));
-
 }
 
-.container .right .label-bought{
+.container .right .label-bought {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-   font-size: 14px;
+    font-size: 14px;
     border-radius: 4px;
     padding: 1px;
     line-height: 50px;
     margin-right: 5px;
     background-image: linear-gradient(rgb(231, 224, 224), rgb(177, 177, 175));
-text-decoration-line: line-through;
+    text-decoration-line: line-through;
 }
 
-.container .right .count{
+.container .right .count {
     background-color: rgb(255, 136, 93);
     padding-left: 3px;
     padding-right: 3px;
     border-radius: 50%;
     color: aliceblue;
-    
-    
 }
 
-.container .right .third{
+.container .right .third {
     border-bottom: 1px solid rgb(117, 116, 116);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-
-.container .left{
+.container .left {
     float: left;
     width: 70%;
-   border-radius: 5px;
+    border-radius: 5px;
     height: 285px;
     padding: 5px;
     background-color: white;
     box-shadow: 3px 3px 5px grey;
     margin: auto;
+    margin-top: 10px;
 }
 
-.container .left .searchadd{
+.container .left .searchadd {
     width: 100%;
     height: 40px;
-    border-bottom: 1px solid rgb(117, 116, 116); 
+    border-bottom: 1px solid rgb(117, 116, 116);
     display: flex;
     position: relative;
-
 }
-.container .left .searchadd .search{
+
+.container .left .searchadd .search {
     width: 90%;
     height: 30px;
 }
 
-.container .left .addbtn{
+.container .left .addbtn {
     color: aliceblue;
     background-color: cornflowerblue;
-font-family: "Trebuchet MS", Helvetica, sans-serif;     
-border-radius: 4px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 4px;
     width: 70px;
     height: 30px;
     border: none;
 }
 
-.container .left .addbtn:hover{
+.container .left .addbtn:hover {
     color: rgb(200, 207, 214);
 }
 
-.container .left .first{
+.container .left .first {
     display: flex;
     flex-direction: row;
-    
     align-items: stretch;
     float: left;
     width: 100%;
@@ -256,30 +224,29 @@ border-radius: 4px;
     padding-top: 15px;
 }
 
-.container .left .prodnotbought{
-   padding-left: 7px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+.container .left .prodnotbought {
+    padding-left: 7px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 37%;
-    
 }
 
 .container .left .prodbought {
     text-decoration-line: line-through;
     padding-left: 7px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     width: 30%;
 }
 
-.container .left .buy-delete{
+.container .left .buy-delete {
     width: 37%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.container .left .second{
+.container .left .second {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     float: left;
     width: 100%;
     border-bottom: 1px solid rgb(117, 116, 116);
@@ -289,10 +256,8 @@ border-radius: 4px;
     padding-top: 30px;
 }
 
-
-
-.container .left .third{
-margin: auto;
+.container .left .third {
+    margin: auto;
     float: left;
     width: 100%;
     flex-direction: row;
@@ -300,43 +265,41 @@ margin: auto;
     height: 45px;
     padding-top: 30px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
-.badge{
-    position:	fixed;
-bottom:	0px;
-left:	40px;
-height:	70px;
-background-color:	rgb(187, 41, 245);
-width:	270px;
-border-radius: 20px 20px 0px 0px;
--moz-border-radius: 20px 20px 0px 0px;
--webkit-border-radius: 20px 20px 0px 0px;
-text-align: center;
-font-family: "Trebuchet MS", Helvetica, sans-serif; 
-color: white;
-font-size: 24px;
+.badge {
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    height: 70px;
+    background-color: rgb(187, 41, 245);
+    width: 270px;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
 }
 
-.badge:hover{
-    position:	fixed;
-bottom:	0px;
-left:	40px;
-height:	210px;
-background-color:	rgb(41, 44, 245);
-width:	270px;
-border-radius: 20px 20px 0px 0px;
--moz-border-radius: 20px 20px 0px 0px;
--webkit-border-radius: 20px 20px 0px 0px;
-text-align: center;
-font-family: "Trebuchet MS", Helvetica, sans-serif; 
-color: white;
-font-size: 24px;
-transition:	all	1s	ease;
+.badge:hover {
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    height: 210px;
+    background-color: rgb(41, 44, 245);
+    width: 270px;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    transition: all 1s ease;
 }
-
-
 
 @media print {
     .badge {
@@ -345,56 +308,47 @@ transition:	all	1s	ease;
         border: 1px solid rgb(0, 0, 0);
         bottom: 0;
     }
-    .badge p{
+    .badge p {
         display: none;
     }
 }
 
 .tooltip {
-    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 16px;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .tooltip::after {
-	background: rgba(197, 23, 250, 0.637);
-	border-radius: 8px 8px 8px 8px;
-	color: #FFF;
-	content: attr(data-tooltip); 
+    background: rgba(197, 23, 250, 0.637);
+    border-radius: 8px 8px 8px 8px;
+    color: #FFF;
+    content: attr(data-tooltip);
     margin-top: -40px;
     margin-left: auto;
     margin-right: auto;
-	opacity: 0;
-	padding: 3px 7px;
+    opacity: 0;
+    padding: 3px 7px;
     position: absolute;
-    
-    
-	visibility: hidden; 
-			
-	transition: all 0.4s ease-in-out; 
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
 }
-
-
 
 .quantity .tooltip::after {
-	background: rgba(197, 23, 250, 0.637);
-	border-radius: 8px 8px 8px 8px;
-	color: #FFF;
-	content: attr(data-tooltip); 
+    background: rgba(197, 23, 250, 0.637);
+    border-radius: 8px 8px 8px 8px;
+    color: #FFF;
+    content: attr(data-tooltip);
     margin-top: -40px;
     margin-left: -47px;
-	opacity: 0; 
-	padding: 3px 7px;
+    opacity: 0;
+    padding: 3px 7px;
     position: absolute;
-    
-    
-	visibility: hidden; 
-			
-	transition: all 0.4s ease-in-out;
-}
-		
-.tooltip:hover::after {
-	opacity: 1;
-	visibility: visible;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
 }
 
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
